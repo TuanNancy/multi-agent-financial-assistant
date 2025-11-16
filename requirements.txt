@@ -1,0 +1,10 @@
+streamlit
+requests
+sentence-transformers
+transformers
+torch
+numpy
+pandas
+langdetect
+faiss-cpu
+python-dotenv

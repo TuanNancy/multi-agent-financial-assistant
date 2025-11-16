@@ -1,0 +1,6 @@
+models/finbert-trained/
+models/*/pytorch_model.bin
+models/*/safetensors
+*.bin
+*.pt
+*.pth
