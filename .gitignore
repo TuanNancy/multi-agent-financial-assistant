@@ -4,3 +4,7 @@ models/*/safetensors
 *.bin
 *.pt
 *.pth
+venv
+
+# Environment variables
+.env
