@@ -30,10 +30,10 @@ LLM_MAX_TOKENS = int(os.getenv("LLM_MAX_TOKENS", "2000"))
 # ============================================================================
 # Embedding Configuration
 # ============================================================================
-# Sentence Transformers Model
-EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
+# Sentence Transformers Model (BGE-M3)
+EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-m3")
 EMBEDDING_DEVICE = os.getenv("EMBEDDING_DEVICE", "cpu")  # cpu or cuda
-EMBEDDING_DIMENSION = int(os.getenv("EMBEDDING_DIMENSION", "384"))
+EMBEDDING_DIMENSION = int(os.getenv("EMBEDDING_DIMENSION", "1024"))  # BGE-M3 dimension
 
 # FAISS Index Configuration
 FAISS_INDEX_TYPE = os.getenv("FAISS_INDEX_TYPE", "flat")  # flat, ivf, hnsw
