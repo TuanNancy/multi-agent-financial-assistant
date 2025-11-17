@@ -8,3 +8,5 @@ pandas
 langdetect
 faiss-cpu
 python-dotenv
+pytest
+pytest-asyncio

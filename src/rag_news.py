@@ -1,13 +1,19 @@
 from __future__ import annotations
 
 import json
+import logging
 from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Optional
 
 import numpy as np
 
-from src.config import NEWS_INDEX_FILE, RAG_SIMILARITY_THRESHOLD, TOP_K_RESULTS
+from src.config import (
+    DEBUG,
+    NEWS_INDEX_FILE,
+    RAG_SIMILARITY_THRESHOLD,
+    TOP_K_RESULTS,
+)
 from src.embedding_service import EmbeddingService
 
 
@@ -32,6 +38,7 @@ class NewsRAG:
         similarity_threshold: float = RAG_SIMILARITY_THRESHOLD,
     ) -> None:
         self.embed_service = embed_service
+        self.logger = logging.getLogger(__name__)
         self.index_path = Path(index_path)
         self.similarity_threshold = similarity_threshold
         self.news: List[NewsItem] = []
@@ -77,6 +84,12 @@ class NewsRAG:
 
         self.news = news
         self.embeddings = self.embed_service.encode(texts) if texts else None
+        if DEBUG:
+            self.logger.info(
+                "NewsRAG loaded %s articles (embeddings ready=%s)",
+                len(self.news),
+                self.embeddings is not None,
+            )
 
     def reload(self) -> None:
         """Cho phép refresh dữ liệu tin tức từ file."""
@@ -90,8 +103,15 @@ class NewsRAG:
     ) -> List[NewsItem]:
         """Tìm các bản tin phù hợp nhất với query và ticker (nếu cung cấp)."""
         if not query.strip():
+            if DEBUG:
+                self.logger.info("NewsRAG search aborted: empty query.")
             return []
         if self.embeddings is None or not self.news:
+            if DEBUG:
+                self.logger.warning(
+                    "NewsRAG search skipped: embeddings not ready (news=%s).",
+                    len(self.news),
+                )
             return []
 
         q_emb = self.embed_service.encode([query])[0]
@@ -114,5 +134,21 @@ class NewsRAG:
             if len(results) >= top_k:
                 break
 
+        if DEBUG:
+            self.logger.info(
+                "NewsRAG search '%s' (ticker=%s) -> %s results (threshold=%.2f)",
+                query,
+                ticker,
+                len(results),
+                self.similarity_threshold,
+            )
+
         return results
+
+    def set_similarity_threshold(self, threshold: float) -> None:
+        """Update similarity threshold safely."""
+        threshold = max(0.0, min(1.0, float(threshold)))
+        self.similarity_threshold = threshold
+        if DEBUG:
+            self.logger.info("NewsRAG similarity threshold set to %.2f", threshold)
 

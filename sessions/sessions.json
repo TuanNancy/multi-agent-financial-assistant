@@ -92,5 +92,47 @@
       }
     ],
     "summary": "Không tìm thấy tin tức phù hợp."
+  },
+  "4eff9778-4054-418a-9901-a6e2ac7b4953": {
+    "history": [
+      {
+        "role": "user",
+        "content": "Phân tích giúp tôi tình hình cổ phiếu Tesla 6 tháng gần đây"
+      },
+      {
+        "role": "assistant",
+        "content": "Không tìm thấy tin tức phù hợp."
+      }
+    ],
+    "summary": "Không tìm thấy tin tức phù hợp."
+  },
+  "12d754ae-8d14-49fa-a167-435e435b9903": {
+    "history": [
+      {
+        "role": "user",
+        "content": "Analyze Tesla stock situation for me"
+      },
+      {
+        "role": "assistant",
+        "content": "No relevant news found."
+      },
+      {
+        "role": "user",
+        "content": "Phân tích giúp tôi tình hình cổ phiếu Tesla 6 tháng gần đây"
+      },
+      {
+        "role": "assistant",
+        "content": "Không tìm thấy tin tức phù hợp."
+      },
+      {
+        "role": "user",
+        "content": "Phân tích giúp tôi tình hình cổ phiếu APPLE 6 tháng gần đây"
+      },
+      {
+        "role": "assistant",
+        "content": "Không tìm thấy tin tức phù hợp."
+      }
+    ],
+    "summary": "Không tìm thấy tin tức phù hợp."
   }
 }
