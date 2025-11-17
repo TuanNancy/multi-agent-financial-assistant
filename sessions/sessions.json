@@ -32,5 +32,39 @@
       }
     ],
     "summary": "No relevant news found."
+  },
+  "696f5072-cf0d-4e46-bb4f-3361c7d9b51a": {
+    "history": [
+      {
+        "role": "user",
+        "content": "phân tích tesla"
+      },
+      {
+        "role": "assistant",
+        "content": "Không tìm thấy tin tức phù hợp."
+      },
+      {
+        "role": "user",
+        "content": "phân tích Tesla"
+      },
+      {
+        "role": "assistant",
+        "content": "Không tìm thấy tin tức phù hợp."
+      }
+    ],
+    "summary": "Không tìm thấy tin tức phù hợp."
+  },
+  "a5fd4c58-e07d-41de-801c-1e00159b7a5b": {
+    "history": [
+      {
+        "role": "user",
+        "content": "phân tích về TesLa"
+      },
+      {
+        "role": "assistant",
+        "content": "Không tìm thấy tin tức phù hợp."
+      }
+    ],
+    "summary": "Không tìm thấy tin tức phù hợp."
   }
 }

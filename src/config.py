@@ -52,7 +52,7 @@ FINBERT_BATCH_SIZE = int(os.getenv("FINBERT_BATCH_SIZE", "16"))
 # ============================================================================
 # Data Configuration
 # ============================================================================
-NEWS_INDEX_FILE = DATA_DIR / "news_index.json"
+NEWS_INDEX_FILE = DATA_DIR / "news_index.jsonl"
 NEWS_RAW_DIR = DATA_DIR / "news_raw"
 NEWS_INDEX_TYPE = os.getenv("NEWS_INDEX_TYPE", "faiss")  # faiss, json
 
