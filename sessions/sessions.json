@@ -1,0 +1,36 @@
+{
+  "68d2592f-833c-4839-a1a9-a6505b935523": {
+    "history": [
+      {
+        "role": "user",
+        "content": "Phân tích Apple 6 tháng gần đây\n"
+      },
+      {
+        "role": "assistant",
+        "content": "Không tìm thấy tin tức phù hợp."
+      }
+    ],
+    "summary": "Không tìm thấy tin tức phù hợp."
+  },
+  "225e7867-efc4-4c18-b54b-13dc16acd0f4": {
+    "history": [
+      {
+        "role": "user",
+        "content": "Phân tích Apple 6 tháng gần đây\n"
+      },
+      {
+        "role": "assistant",
+        "content": "Không tìm thấy tin tức phù hợp."
+      },
+      {
+        "role": "user",
+        "content": "Apple analysis last 6 months"
+      },
+      {
+        "role": "assistant",
+        "content": "No relevant news found."
+      }
+    ],
+    "summary": "No relevant news found."
+  }
+}

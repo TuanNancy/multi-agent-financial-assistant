@@ -17,13 +17,30 @@ class SessionStore:
         self._ensure_file()
 
     def _ensure_file(self) -> None:
-        if not self.path.exists():
-            with self.path.open("w", encoding="utf-8") as f:
-                json.dump({}, f, ensure_ascii=False, indent=2)
+        if not self.path.exists() or self.path.stat().st_size == 0:
+            self._write_empty()
+
+    def _write_empty(self) -> None:
+        with self.path.open("w", encoding="utf-8") as f:
+            json.dump({}, f, ensure_ascii=False, indent=2)
 
     def _load_all(self) -> Dict[str, Any]:
-        with self.path.open("r", encoding="utf-8") as f:
-            return json.load(f)
+        try:
+            with self.path.open("r", encoding="utf-8") as f:
+                content = f.read().strip()
+        except FileNotFoundError:
+            self._write_empty()
+            return {}
+
+        if not content:
+            self._write_empty()
+            return {}
+
+        try:
+            return json.loads(content)
+        except json.JSONDecodeError:
+            self._write_empty()
+            return {}
 
     def _save_all(self, data: Dict[str, Any]) -> None:
         with self.path.open("w", encoding="utf-8") as f:

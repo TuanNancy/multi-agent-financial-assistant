@@ -5,6 +5,13 @@ import uuid
 
 import streamlit as st
 
+from pathlib import Path
+import sys
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from src.agents.language_agent import LanguageAgent
 from src.agents.orchestrator_agent import OrchestratorAgent
 from src.agents.retrieval_agent import RetrievalAgent
