@@ -1,0 +1,802 @@
+[
+  {
+    "id": "n001",
+    "title": "Tesla reports 15% increase in Q2 vehicle deliveries",
+    "content": "Tesla announced that its vehicle deliveries increased by 15% in the second quarter compared to last year, driven by strong demand in Europe and China.",
+    "date": "2025-07-15",
+    "ticker": "TSLA",
+    "source": "Reuters"
+  },
+  {
+    "id": "n002",
+    "title": "Tesla stock falls after margin concerns",
+    "content": "Shares of Tesla dropped 4% after analysts raised concerns about declining profit margins due to price cuts across key markets.",
+    "date": "2025-06-20",
+    "ticker": "TSLA",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n003",
+    "title": "Tesla opens new Gigafactory in Mexico",
+    "content": "Tesla has officially opened its new Gigafactory in Monterrey, Mexico, expected to produce 1 million vehicles annually by 2027.",
+    "date": "2025-05-30",
+    "ticker": "TSLA",
+    "source": "Reuters"
+  },
+  {
+    "id": "n004",
+    "title": "Tesla faces lawsuit over Autopilot safety claims",
+    "content": "A class-action lawsuit has been filed against Tesla alleging misleading statements about the safety of its Autopilot system.",
+    "date": "2025-05-12",
+    "ticker": "TSLA",
+    "source": "WSJ"
+  },
+  {
+    "id": "n005",
+    "title": "Tesla's Cybertruck production hits 20,000 units",
+    "content": "Tesla announced it has produced over 20,000 Cybertrucks, exceeding its Q1 target and signaling strong ramp-up in manufacturing.",
+    "date": "2025-04-10",
+    "ticker": "TSLA",
+    "source": "CNBC"
+  },
+  {
+    "id": "n006",
+    "title": "Tesla cuts prices in China amid rising competition",
+    "content": "Tesla reduced Model Y prices in China by 8% to counter growing competition from BYD and NIO, pressuring short-term margins.",
+    "date": "2025-03-22",
+    "ticker": "TSLA",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n007",
+    "title": "Elon Musk announces Tesla AI Day 2025",
+    "content": "Tesla CEO Elon Musk revealed plans for AI Day 2025, highlighting advancements in Dojo supercomputer and robotaxi technology.",
+    "date": "2025-03-05",
+    "ticker": "TSLA",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "n008",
+    "title": "Tesla's solar business underperforms expectations",
+    "content": "Tesla's energy division reported weaker-than-expected solar deployment, causing concern over diversification strategy.",
+    "date": "2025-02-28",
+    "ticker": "TSLA",
+    "source": "Financial Times"
+  },
+  {
+    "id": "n009",
+    "title": "Tesla achieves record quarterly revenue",
+    "content": "Tesla reported record revenue of $28.5 billion in Q1 2025, driven by strong vehicle sales and energy storage growth.",
+    "date": "2025-04-25",
+    "ticker": "TSLA",
+    "source": "Reuters"
+  },
+  {
+    "id": "n010",
+    "title": "Regulatory delays hit Tesla's Full Self-Driving rollout",
+    "content": "U.S. regulators have delayed approval for Tesla's Full Self-Driving v12.5, citing unresolved safety validation issues.",
+    "date": "2025-02-15",
+    "ticker": "TSLA",
+    "source": "WSJ"
+  },
+  {
+    "id": "n011",
+    "title": "Tesla partners with Panasonic on next-gen batteries",
+    "content": "Tesla and Panasonic announced a joint R&D initiative for 4680 battery cells with 20% higher energy density.",
+    "date": "2025-01-20",
+    "ticker": "TSLA",
+    "source": "Nikkei Asia"
+  },
+  {
+    "id": "n012",
+    "title": "Tesla stock downgraded by Morgan Stanley",
+    "content": "Morgan Stanley downgraded Tesla to 'Equal Weight' citing valuation concerns and slowing EV adoption in North America.",
+    "date": "2025-01-10",
+    "ticker": "TSLA",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n013",
+    "title": "Tesla's Berlin factory reaches 5,000 vehicles/week",
+    "content": "Tesla’s Gigafactory Berlin has hit a production milestone of 5,000 vehicles per week, boosting European supply.",
+    "date": "2024-12-18",
+    "ticker": "TSLA",
+    "source": "Reuters"
+  },
+  {
+    "id": "n014",
+    "title": "Tesla recalls 100,000 vehicles over software glitch",
+    "content": "Tesla issued a recall for 100,000 Model 3 and Model Y cars due to a potential brake system software error.",
+    "date": "2024-12-05",
+    "ticker": "TSLA",
+    "source": "NHTSA via WSJ"
+  },
+  {
+    "id": "n015",
+    "title": "Tesla's Dojo supercomputer accelerates AI training",
+    "content": "Tesla's in-house Dojo supercomputer has reduced AI training time for vision models by 70%, engineers report.",
+    "date": "2024-11-22",
+    "ticker": "TSLA",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "n016",
+    "title": "Tesla faces unionization efforts in Texas",
+    "content": "Workers at Tesla's Austin factory have filed for union representation, marking the first major U.S. union push.",
+    "date": "2024-11-10",
+    "ticker": "TSLA",
+    "source": "Financial Times"
+  },
+  {
+    "id": "n017",
+    "title": "Tesla's FSD subscription revenue grows 40%",
+    "content": "Tesla reported a 40% year-over-year increase in Full Self-Driving subscription revenue, now exceeding $500M annually.",
+    "date": "2024-10-30",
+    "ticker": "TSLA",
+    "source": "CNBC"
+  },
+  {
+    "id": "n018",
+    "title": "Tesla's China sales drop 12% YoY",
+    "content": "Tesla China deliveries fell 12% in September compared to last year due to intense local competition and economic slowdown.",
+    "date": "2024-10-15",
+    "ticker": "TSLA",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n019",
+    "title": "Tesla launches new Model 2 prototype",
+    "content": "Tesla unveiled a prototype of its long-awaited $25,000 Model 2, targeting mass-market adoption in emerging markets.",
+    "date": "2024-09-25",
+    "ticker": "TSLA",
+    "source": "Reuters"
+  },
+  {
+    "id": "n020",
+    "title": "Tesla sued over misleading range claims",
+    "content": "A consumer group filed a lawsuit alleging Tesla exaggerated real-world range of Model S in official documentation.",
+    "date": "2024-09-12",
+    "ticker": "TSLA",
+    "source": "MarketWatch"
+  },
+  {
+    "id": "n021",
+    "title": "Tesla energy storage deployments double",
+    "content": "Tesla's Megapack deployments doubled year-over-year, with major projects in Texas and Australia driving growth.",
+    "date": "2024-08-28",
+    "ticker": "TSLA",
+    "source": "Reuters"
+  },
+  {
+    "id": "n022",
+    "title": "Tesla delays robotaxi unveiling to 2025",
+    "content": "Tesla has pushed back its robotaxi unveiling event from August to October 2025 due to regulatory preparation.",
+    "date": "2024-08-10",
+    "ticker": "TSLA",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "n023",
+    "title": "Tesla's Q3 earnings beat expectations",
+    "content": "Tesla reported EPS of $0.85 vs $0.72 expected, with automotive gross margin stabilizing at 17.8%.",
+    "date": "2024-07-24",
+    "ticker": "TSLA",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n024",
+    "title": "Tesla CFO sells $5M in stock",
+    "content": "Tesla CFO Vaibhav Taneja sold $5 million worth of shares, triggering minor market concern over insider confidence.",
+    "date": "2024-07-05",
+    "ticker": "TSLA",
+    "source": "WSJ"
+  },
+  {
+    "id": "n025",
+    "title": "Tesla expands Supercharger network in India",
+    "content": "Tesla has signed agreements to roll out 500 Supercharger stations across India by end of 2025.",
+    "date": "2024-06-18",
+    "ticker": "TSLA",
+    "source": "Economic Times"
+  },
+  {
+    "id": "n026",
+    "title": "Apple unveils new AI features for iPhone",
+    "content": "Apple revealed a new set of AI-powered features for the upcoming iPhone, boosting investor optimism and lifting the stock by 3%.",
+    "date": "2025-06-15",
+    "ticker": "AAPL",
+    "source": "CNBC"
+  },
+  {
+    "id": "n027",
+    "title": "Apple faces regulatory pressure in EU",
+    "content": "The company is under investigation for potential antitrust violations in Europe, creating uncertainty for long-term growth.",
+    "date": "2025-06-02",
+    "ticker": "AAPL",
+    "source": "Financial Times"
+  },
+  {
+    "id": "n028",
+    "title": "Apple's Vision Pro sales exceed expectations",
+    "content": "Apple reported strong initial sales of Vision Pro, with over 300,000 units sold in the first quarter post-launch.",
+    "date": "2025-05-25",
+    "ticker": "AAPL",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n029",
+    "title": "Apple supplier faces labor violations in Vietnam",
+    "content": "An Apple supplier in Vietnam was cited for excessive overtime and poor working conditions, raising ESG concerns.",
+    "date": "2025-05-10",
+    "ticker": "AAPL",
+    "source": "Reuters"
+  },
+  {
+    "id": "n030",
+    "title": "Apple announces $90B share buyback",
+    "content": "Apple's board approved a $90 billion share repurchase program, the largest in corporate history, signaling strong cash flow.",
+    "date": "2025-04-30",
+    "ticker": "AAPL",
+    "source": "WSJ"
+  },
+  {
+    "id": "n031",
+    "title": "Apple delays AI integration in Europe",
+    "content": "Apple will delay rollout of new AI features in the EU due to compliance with the Digital Markets Act.",
+    "date": "2025-04-15",
+    "ticker": "AAPL",
+    "source": "Financial Times"
+  },
+  {
+    "id": "n032",
+    "title": "iPhone 17 prototypes feature under-display Face ID",
+    "content": "Leaks reveal iPhone 17 prototypes with fully under-display Face ID, potentially enabling a true full-screen design.",
+    "date": "2025-03-28",
+    "ticker": "AAPL",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "n033",
+    "title": "Apple services revenue hits all-time high",
+    "content": "Apple's services segment, including App Store and iCloud, reached $25 billion in quarterly revenue for the first time.",
+    "date": "2025-02-20",
+    "ticker": "AAPL",
+    "source": "CNBC"
+  },
+  {
+    "id": "n034",
+    "title": "Apple fined $1.2B in EU antitrust case",
+    "content": "The European Commission imposed a $1.2 billion fine on Apple for anti-competitive practices in music streaming.",
+    "date": "2025-02-05",
+    "ticker": "AAPL",
+    "source": "Reuters"
+  },
+  {
+    "id": "n035",
+    "title": "Apple partners with Alibaba on AI in China",
+    "content": "Apple and Alibaba formed a strategic partnership to develop localized AI models for Siri and iMessage in China.",
+    "date": "2025-01-22",
+    "ticker": "AAPL",
+    "source": "South China Morning Post"
+  },
+  {
+    "id": "n036",
+    "title": "Apple's India manufacturing capacity doubles",
+    "content": "Apple has doubled iPhone production in India, with over 25% of global output now coming from the region.",
+    "date": "2025-01-10",
+    "ticker": "AAPL",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n037",
+    "title": "Apple stock hit by China iPhone ban rumors",
+    "content": "Shares fell 2.5% on unconfirmed reports that China may restrict government employees from using iPhones.",
+    "date": "2024-12-12",
+    "ticker": "AAPL",
+    "source": "MarketWatch"
+  },
+  {
+    "id": "n038",
+    "title": "Apple Watch detects early signs of heart condition in study",
+    "content": "A Stanford-led study confirmed Apple Watch can detect atrial fibrillation with 92% accuracy, validating health claims.",
+    "date": "2024-12-03",
+    "ticker": "AAPL",
+    "source": "Nature Digital Medicine"
+  },
+  {
+    "id": "n039",
+    "title": "Apple's Q1 earnings miss on weak iPhone demand",
+    "content": "Apple reported lower-than-expected iPhone sales in China and Europe, causing EPS to fall short of analyst estimates.",
+    "date": "2024-11-20",
+    "ticker": "AAPL",
+    "source": "WSJ"
+  },
+  {
+    "id": "n040",
+    "title": "Apple opens first store in Vietnam",
+    "content": "Apple inaugurated its first retail store in Ho Chi Minh City, marking a major push into Southeast Asia.",
+    "date": "2024-11-08",
+    "ticker": "AAPL",
+    "source": "Reuters"
+  },
+  {
+    "id": "n041",
+    "title": "Apple sued over App Store commission rates",
+    "content": "A coalition of developers filed a new lawsuit challenging Apple's 15–30% App Store commission as anti-competitive.",
+    "date": "2024-10-25",
+    "ticker": "AAPL",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "n042",
+    "title": "Apple's M4 chip powers new MacBook Air",
+    "content": "Apple launched new MacBook Air with M4 chip, offering 50% faster AI performance and 18-hour battery life.",
+    "date": "2024-10-10",
+    "ticker": "AAPL",
+    "source": "The Verge"
+  },
+  {
+    "id": "n043",
+    "title": "Apple's dividend increased by 5%",
+    "content": "Apple announced a 5% increase in its quarterly dividend, continuing its streak of annual dividend hikes.",
+    "date": "2024-09-30",
+    "ticker": "AAPL",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n044",
+    "title": "Apple faces backlash over data privacy policy",
+    "content": "New iOS data collection practices sparked criticism from privacy advocates and EU regulators.",
+    "date": "2024-09-15",
+    "ticker": "AAPL",
+    "source": "Financial Times"
+  },
+  {
+    "id": "n045",
+    "title": "Apple's India revenue grows 35% YoY",
+    "content": "Apple reported 35% year-over-year revenue growth in India, driven by local manufacturing and rising premium demand.",
+    "date": "2024-08-22",
+    "ticker": "AAPL",
+    "source": "Economic Times"
+  },
+  {
+    "id": "n046",
+    "title": "Apple delays EV project indefinitely",
+    "content": "Apple has officially shelved its 'Project Titan' electric vehicle initiative to focus on AI and spatial computing.",
+    "date": "2024-08-05",
+    "ticker": "AAPL",
+    "source": "CNBC"
+  },
+  {
+    "id": "n047",
+    "title": "Apple's cash reserves exceed $200 billion",
+    "content": "Apple's cash and marketable securities surpassed $200 billion, reinforcing its financial fortress amid global uncertainty.",
+    "date": "2024-07-25",
+    "ticker": "AAPL",
+    "source": "Reuters"
+  },
+  {
+    "id": "n048",
+    "title": "Apple CEO Tim Cook visits Vietnam factory",
+    "content": "Tim Cook made a rare visit to Apple's supplier factories in Vietnam, signaling deeper supply chain diversification.",
+    "date": "2024-07-12",
+    "ticker": "AAPL",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n049",
+    "title": "Apple's App Store faces new EU regulation",
+    "content": "The EU forced Apple to allow third-party app stores on iOS, potentially reducing App Store revenue in Europe.",
+    "date": "2024-06-28",
+    "ticker": "AAPL",
+    "source": "Politico Europe"
+  },
+  {
+    "id": "n050",
+    "title": "Apple's AR headset sales projected to double",
+    "content": "Analysts project Vision Pro sales to double in 2025 as enterprise adoption accelerates in healthcare and design sectors.",
+    "date": "2024-06-10",
+    "ticker": "AAPL",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "n051",
+    "title": "Microsoft announces partnership with major AI lab",
+    "content": "Microsoft has entered a new partnership focused on advanced AI research, expected to enhance cloud adoption among enterprise customers.",
+    "date": "2025-05-28",
+    "ticker": "MSFT",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "n052",
+    "title": "Microsoft faces slowdown in cloud segment",
+    "content": "Despite strong overall performance, Azure's growth slowed compared to previous quarters, causing concerns among investors.",
+    "date": "2025-05-10",
+    "ticker": "MSFT",
+    "source": "WSJ"
+  },
+  {
+    "id": "n053",
+    "title": "Microsoft's Copilot reaches 200M monthly users",
+    "content": "Microsoft announced Copilot has surpassed 200 million monthly active users across Windows, Office, and Edge.",
+    "date": "2025-04-22",
+    "ticker": "MSFT",
+    "source": "CNBC"
+  },
+  {
+    "id": "n054",
+    "title": "Microsoft fined $2.1B in EU antitrust case",
+    "content": "The European Commission fined Microsoft $2.1 billion for bundling Teams with Office without offering unbundled options.",
+    "date": "2025-04-05",
+    "ticker": "MSFT",
+    "source": "Reuters"
+  },
+  {
+    "id": "n055",
+    "title": "Microsoft Q3 revenue grows 14% YoY",
+    "content": "Microsoft reported $65.2B in revenue for Q3, driven by strong performance in Azure and AI services.",
+    "date": "2025-03-20",
+    "ticker": "MSFT",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n056",
+    "title": "Microsoft lays off 3,000 employees in gaming division",
+    "content": "Microsoft cut 3,000 jobs in Activision Blizzard and Xbox divisions as part of post-acquisition restructuring.",
+    "date": "2025-03-05",
+    "ticker": "MSFT",
+    "source": "The Verge"
+  },
+  {
+    "id": "n057",
+    "title": "Microsoft launches AI-powered Windows 12",
+    "content": "Microsoft unveiled Windows 12 with deep AI integration, including real-time language translation and smart automation.",
+    "date": "2025-02-18",
+    "ticker": "MSFT",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "n058",
+    "title": "Microsoft's GitHub Copilot faces copyright lawsuit",
+    "content": "A group of developers sued Microsoft over GitHub Copilot, alleging it reproduces copyrighted code without attribution.",
+    "date": "2025-02-02",
+    "ticker": "MSFT",
+    "source": "WSJ"
+  },
+  {
+    "id": "n059",
+    "title": "Azure AI Studio gains enterprise traction",
+    "content": "Microsoft's Azure AI Studio is now used by over 60% of Fortune 500 companies for custom model development.",
+    "date": "2025-01-25",
+    "ticker": "MSFT",
+    "source": "CNBC"
+  },
+  {
+    "id": "n060",
+    "title": "Microsoft opens AI research center in Toronto",
+    "content": "Microsoft expanded its AI research footprint with a new center in Toronto, focused on responsible AI and healthcare.",
+    "date": "2025-01-12",
+    "ticker": "MSFT",
+    "source": "Reuters"
+  },
+  {
+    "id": "n061",
+    "title": "Microsoft's Surface sales decline 8%",
+    "content": "Surface hardware revenue fell 8% YoY due to extended PC replacement cycles and strong competition from Apple.",
+    "date": "2024-12-15",
+    "ticker": "MSFT",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n062",
+    "title": "Microsoft increases dividend by 10%",
+    "content": "Microsoft raised its quarterly dividend by 10%, reflecting strong cash flow and shareholder commitment.",
+    "date": "2024-12-03",
+    "ticker": "MSFT",
+    "source": "WSJ"
+  },
+  {
+    "id": "n063",
+    "title": "Microsoft Teams adds real-time AI transcription",
+    "content": "Microsoft Teams now offers AI-powered live transcription with speaker identification and translation.",
+    "date": "2024-11-20",
+    "ticker": "MSFT",
+    "source": "TechRadar"
+  },
+  {
+    "id": "n064",
+    "title": "Microsoft's cloud infrastructure hit by outage",
+    "content": "A major Azure outage affected thousands of businesses across North America for over 4 hours, raising reliability concerns.",
+    "date": "2024-11-08",
+    "ticker": "MSFT",
+    "source": "The Register"
+  },
+  {
+    "id": "n065",
+    "title": "Microsoft signs $10B AI deal with U.S. government",
+    "content": "Microsoft secured a $10 billion contract to provide AI and cloud services to multiple U.S. federal agencies.",
+    "date": "2024-10-25",
+    "ticker": "MSFT",
+    "source": "Reuters"
+  },
+  {
+    "id": "n066",
+    "title": "Microsoft's Xbox Game Pass surpasses 35M subscribers",
+    "content": "Microsoft reported over 35 million Xbox Game Pass subscribers, making it the largest gaming subscription service globally.",
+    "date": "2024-10-12",
+    "ticker": "MSFT",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n067",
+    "title": "Microsoft faces antitrust probe in UK",
+    "content": "The UK's CMA launched an investigation into Microsoft's cloud and AI dominance in the enterprise market.",
+    "date": "2024-09-28",
+    "ticker": "MSFT",
+    "source": "Financial Times"
+  },
+  {
+    "id": "n068",
+    "title": "Microsoft's AI revenue exceeds $20B annually",
+    "content": "Microsoft disclosed that AI-related products now generate over $20 billion in annual revenue, up from $5B in 2023.",
+    "date": "2024-09-15",
+    "ticker": "MSFT",
+    "source": "CNBC"
+  },
+  {
+    "id": "n069",
+    "title": "Microsoft acquires cybersecurity startup for $2.5B",
+    "content": "Microsoft bought a leading AI-native cybersecurity firm to bolster its Microsoft Security Copilot offering.",
+    "date": "2024-08-30",
+    "ticker": "MSFT",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "n070",
+    "title": "Microsoft's LinkedIn revenue grows 12%",
+    "content": "LinkedIn reported 12% year-over-year revenue growth, driven by Talent Solutions and Marketing Solutions.",
+    "date": "2024-08-15",
+    "ticker": "MSFT",
+    "source": "WSJ"
+  },
+  {
+    "id": "n071",
+    "title": "Microsoft CEO Satya Nadella receives $50M bonus",
+    "content": "Satya Nadella was awarded a $50 million performance bonus tied to AI and cloud growth milestones.",
+    "date": "2024-07-25",
+    "ticker": "MSFT",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n072",
+    "title": "Microsoft's carbon-negative pledge on track",
+    "content": "Microsoft confirmed it remains on track to be carbon-negative by 2030, with 10 million tons of CO2 removed in 2024.",
+    "date": "2024-07-10",
+    "ticker": "MSFT",
+    "source": "Reuters"
+  },
+  {
+    "id": "n073",
+    "title": "Microsoft launches AI coding assistant for Python",
+    "content": "Microsoft introduced a specialized AI assistant for Python developers, integrated into Visual Studio Code.",
+    "date": "2024-06-22",
+    "ticker": "MSFT",
+    "source": "The Verge"
+  },
+  {
+    "id": "n074",
+    "title": "Microsoft's advertising revenue surges",
+    "content": "Microsoft reported 25% growth in advertising revenue from Bing and LinkedIn, benefiting from AI-enhanced targeting.",
+    "date": "2024-06-10",
+    "ticker": "MSFT",
+    "source": "CNBC"
+  },
+  {
+    "id": "n075",
+    "title": "Microsoft partners with NVIDIA on AI chips",
+    "content": "Microsoft and NVIDIA announced a partnership to co-design custom AI chips for Azure data centers.",
+    "date": "2024-05-28",
+    "ticker": "MSFT",
+    "source": "Reuters"
+  },
+  {
+    "id": "n076",
+    "title": "Amazon expands operations in Southeast Asia",
+    "content": "Amazon announced its expansion into Southeast Asia as it seeks new markets for e-commerce and cloud infrastructure services.",
+    "date": "2025-06-12",
+    "ticker": "AMZN",
+    "source": "Reuters"
+  },
+  {
+    "id": "n077",
+    "title": "Amazon shares dip after weak Q1 outlook",
+    "content": "The company issued a weaker-than-expected Q1 guidance, leading to a slight decline in share price during pre-market trading.",
+    "date": "2025-05-25",
+    "ticker": "AMZN",
+    "source": "MarketWatch"
+  },
+  {
+    "id": "n078",
+    "title": "Amazon launches AI-powered shopping assistant",
+    "content": "Amazon introduced 'Rufus', an AI shopping assistant that answers product questions and compares prices in real time.",
+    "date": "2025-05-10",
+    "ticker": "AMZN",
+    "source": "CNBC"
+  },
+  {
+    "id": "n079",
+    "title": "Amazon faces warehouse union vote in California",
+    "content": "Workers at an Amazon fulfillment center in California are voting on union representation this week.",
+    "date": "2025-04-28",
+    "ticker": "AMZN",
+    "source": "WSJ"
+  },
+  {
+    "id": "n080",
+    "title": "Amazon Web Services revenue hits $28B",
+    "content": "AWS reported $28 billion in quarterly revenue, growing 16% YoY despite increased competition from Azure and GCP.",
+    "date": "2025-04-15",
+    "ticker": "AMZN",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n081",
+    "title": "Amazon fined $1.5B in German antitrust case",
+    "content": "Germany's Federal Cartel Office fined Amazon $1.5 billion for self-preferencing its own products on the marketplace.",
+    "date": "2025-04-02",
+    "ticker": "AMZN",
+    "source": "Financial Times"
+  },
+  {
+    "id": "n082",
+    "title": "Amazon Prime membership exceeds 220M globally",
+    "content": "Amazon announced over 220 million Prime members worldwide, with strong growth in India and Brazil.",
+    "date": "2025-03-20",
+    "ticker": "AMZN",
+    "source": "Reuters"
+  },
+  {
+    "id": "n083",
+    "title": "Amazon delays drone delivery expansion",
+    "content": "Amazon has postponed nationwide rollout of Prime Air drone delivery due to FAA regulatory hurdles.",
+    "date": "2025-03-05",
+    "ticker": "AMZN",
+    "source": "TechCrunch"
+  },
+  {
+    "id": "n084",
+    "title": "Amazon's advertising revenue surges 24%",
+    "content": "Amazon reported 24% year-over-year growth in ad revenue, now rivaling Google and Meta in digital ad market share.",
+    "date": "2025-02-18",
+    "ticker": "AMZN",
+    "source": "CNBC"
+  },
+  {
+    "id": "n085",
+    "title": "Amazon acquires robotics company for warehouse automation",
+    "content": "Amazon bought a Boston-based robotics firm for $800 million to accelerate automation in fulfillment centers.",
+    "date": "2025-02-05",
+    "ticker": "AMZN",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n086",
+    "title": "Amazon Q4 earnings beat estimates",
+    "content": "Amazon reported EPS of $1.02 vs $0.85 expected, driven by strong AWS and advertising performance.",
+    "date": "2025-01-25",
+    "ticker": "AMZN",
+    "source": "WSJ"
+  },
+  {
+    "id": "n087",
+    "title": "Amazon faces lawsuit over Alexa data collection",
+    "content": "A class-action lawsuit alleges Amazon retains Alexa voice recordings without proper user consent.",
+    "date": "2025-01-12",
+    "ticker": "AMZN",
+    "source": "MarketWatch"
+  },
+  {
+    "id": "n088",
+    "title": "Amazon launches satellite internet service",
+    "content": "Amazon's Project Kuiper has begun beta testing its satellite internet service in rural U.S. regions.",
+    "date": "2024-12-15",
+    "ticker": "AMZN",
+    "source": "Reuters"
+  },
+  {
+    "id": "n089",
+    "title": "Amazon's healthcare venture expands to 10 states",
+    "content": "Amazon Clinic, the company's virtual healthcare service, is now available in 10 U.S. states.",
+    "date": "2024-12-03",
+    "ticker": "AMZN",
+    "source": "CNBC"
+  },
+  {
+    "id": "n090",
+    "title": "Amazon stock split announced",
+    "content": "Amazon's board approved a 20-for-1 stock split, effective June 2025, to make shares more accessible to employees and retail investors.",
+    "date": "2024-11-20",
+    "ticker": "AMZN",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n091",
+    "title": "Amazon lays off 1,500 employees in devices division",
+    "content": "Amazon cut 1,500 jobs in its devices and services division, including Alexa and Echo teams, amid AI restructuring.",
+    "date": "2024-11-08",
+    "ticker": "AMZN",
+    "source": "The Verge"
+  },
+  {
+    "id": "n092",
+    "title": "Amazon's same-day delivery expands to 20 new cities",
+    "content": "Amazon announced same-day delivery for Prime members in 20 additional U.S. cities, enhancing logistics dominance.",
+    "date": "2024-10-25",
+    "ticker": "AMZN",
+    "source": "Reuters"
+  },
+  {
+    "id": "n093",
+    "title": "Amazon sued over counterfeit goods",
+    "content": "A major brand coalition sued Amazon for allegedly failing to prevent counterfeit products on its marketplace.",
+    "date": "2024-10-12",
+    "ticker": "AMZN",
+    "source": "WSJ"
+  },
+  {
+    "id": "n094",
+    "title": "Amazon's renewable energy investments reach 50 GW",
+    "content": "Amazon has now invested in 50 gigawatts of renewable energy projects, the largest corporate buyer globally.",
+    "date": "2024-09-28",
+    "ticker": "AMZN",
+    "source": "Bloomberg"
+  },
+  {
+    "id": "n095",
+    "title": "Amazon Pharmacy partners with major insurers",
+    "content": "Amazon Pharmacy announced partnerships with UnitedHealth and Aetna to offer discounted prescription delivery.",
+    "date": "2024-09-15",
+    "ticker": "AMZN",
+    "source": "CNBC"
+  },
+  {
+    "id": "n096",
+    "title": "Amazon's international segment returns to profit",
+    "content": "After 5 quarters of losses, Amazon's international operations posted a small profit, driven by India and Middle East.",
+    "date": "2024-08-30",
+    "ticker": "AMZN",
+    "source": "Financial Times"
+  },
+  {
+    "id": "n097",
+    "title": "Amazon CEO Andy Jassy sells $20M in stock",
+    "content": "Amazon CEO Andy Jassy sold $20 million worth of shares as part of a pre-arranged trading plan.",
+    "date": "2024-08-15",
+    "ticker": "AMZN",
+    "source": "MarketWatch"
+  },
+  {
+    "id": "n098",
+    "title": "Amazon opens first physical apparel store",
+    "content": "Amazon launched its first brick-and-mortar clothing store in New York City, featuring AI-powered fitting rooms.",
+    "date": "2024-07-25",
+    "ticker": "AMZN",
+    "source": "Reuters"
+  },
+  {
+    "id": "n099",
+    "title": "Amazon's logistics network now larger than FedEx",
+    "content": "Amazon's delivery network surpassed FedEx in U.S. package volume, according to new industry data.",
+    "date": "2024-07-10",
+    "ticker": "AMZN",
+    "source": "WSJ"
+  },
+  {
+    "id": "n100",
+    "title": "Amazon Web Services launches AI model marketplace",
+    "content": "AWS introduced a new marketplace for third-party AI models, allowing customers to buy, deploy, and fine-tune models instantly.",
+    "date": "2024-06-22",
+    "ticker": "AMZN",
+    "source": "TechCrunch"
+  }
+]

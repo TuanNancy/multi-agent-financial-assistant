@@ -45,29 +45,38 @@ class NewsRAG:
             self.embeddings = None
             return
 
+        with self.index_path.open("r", encoding="utf-8") as f:
+            raw = f.read().strip()
+
+        if not raw:
+            self.news = []
+            self.embeddings = None
+            return
+
+        if raw.startswith("["):
+            parsed = json.loads(raw)
+        else:
+            parsed = [
+                json.loads(line)
+                for line in raw.splitlines()
+                if line.strip()
+            ]
+
         news: List[NewsItem] = []
         texts: List[str] = []
-
-        with self.index_path.open("r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                obj = json.loads(line)
-                item = NewsItem(
-                    id=obj["id"],
-                    title=obj["title"],
-                    content=obj["content"],
-                    date=obj["date"],
-                    ticker=obj["ticker"],
-                )
-                news.append(item)
-                texts.append(item.content)
+        for obj in parsed:
+            item = NewsItem(
+                id=obj["id"],
+                title=obj["title"],
+                content=obj["content"],
+                date=obj["date"],
+                ticker=obj["ticker"],
+            )
+            news.append(item)
+            texts.append(item.content)
 
         self.news = news
-        self.embeddings = (
-            self.embed_service.encode(texts) if texts else None
-        )
+        self.embeddings = self.embed_service.encode(texts) if texts else None
 
     def reload(self) -> None:
         """Cho phép refresh dữ liệu tin tức từ file."""
