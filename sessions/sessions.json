@@ -66,5 +66,31 @@
       }
     ],
     "summary": "Không tìm thấy tin tức phù hợp."
+  },
+  "c9f25232-d68a-41ac-b7f3-9907aa1d7f48": {
+    "history": [
+      {
+        "role": "user",
+        "content": "Phân tích giúp mình tình hình của Tesla 6 tháng vừa rồi, tâm lý thị trường tích cực hay tiêu cực?"
+      },
+      {
+        "role": "assistant",
+        "content": "Không tìm thấy tin tức phù hợp."
+      }
+    ],
+    "summary": "Không tìm thấy tin tức phù hợp."
+  },
+  "83c102fd-a29b-4720-92ea-d9ab4adfebd9": {
+    "history": [
+      {
+        "role": "user",
+        "content": "Phân tích giúp mình tình hình của Tesla 6 tháng vừa rồi, tâm lý thị trường tích cực hay tiêu cực?"
+      },
+      {
+        "role": "assistant",
+        "content": "Không tìm thấy tin tức phù hợp."
+      }
+    ],
+    "summary": "Không tìm thấy tin tức phù hợp."
   }
 }

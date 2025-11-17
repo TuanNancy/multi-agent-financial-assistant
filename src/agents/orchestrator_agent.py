@@ -42,8 +42,9 @@ class OrchestratorAgent:
         query_for_rag = (
             user_message if not company else f"{company} {user_message}"
         )
+        ticker_filter = self._normalize_ticker(company)
         news = self.retrieval_agent.get_relevant_news(
-            query_for_rag, ticker=company, top_k=5
+            query_for_rag, ticker=ticker_filter, top_k=5
         )
 
         sentiments = (
@@ -123,4 +124,19 @@ class OrchestratorAgent:
             time_range = None
 
         return company, time_range
+
+    @staticmethod
+    def _normalize_ticker(candidate: str | None) -> str | None:
+        """Return uppercase ticker if candidate looks like one (1–5 alphanum chars)."""
+        if not isinstance(candidate, str):
+            return None
+
+        ticker = candidate.strip().upper()
+        if not ticker or len(ticker) > 5:
+            return None
+
+        if not ticker.isalnum():
+            return None
+
+        return ticker
 
